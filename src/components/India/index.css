@@ -1,0 +1,47 @@
+.para {
+  color: #808285;
+  font-size: 17px;
+  margin: 10px 0px 0px;
+  padding: 10px;
+  font-weight: 500;
+}
+.india-container {
+  padding: 0 15px;
+  text-align: justify;
+}
+.heading {
+  color: #fca33e;
+  padding: 10px;
+  margin: 20px 0px 8px;
+  font-size: 30px;
+}
+.subheading {
+  color: #808285;
+  font: 24px;
+  padding: 10px;
+}
+.india-img {
+  width: 100%;
+  height: 80%;
+}
+@media (min-width: 763px) {
+  .nation-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .india-container {
+    padding-top: 30px;
+    margin-bottom: 15px;
+  }
+  .heading {
+    color: #fca33e;
+    padding: 10px;
+    margin: 20px 0px 8px;
+    font-size: 24px;
+  }
+  .subheading {
+    color: #808285;
+    font: 20px;
+    padding: 10px;
+  }
+}

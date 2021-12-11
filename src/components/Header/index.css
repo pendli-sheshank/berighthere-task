@@ -1,0 +1,93 @@
+.header-section {
+  background-image: url("https://berighthere.com/static/media/main-bg.4a823fd1.png");
+  background-size: cover;
+  padding: 35px;
+}
+.first {
+  color: white;
+}
+.second {
+  color: orange;
+}
+.heading-content {
+  width: 70%;
+  padding: 50px;
+  text-align: left;
+  font-size: 45px;
+  font-weight: bolder;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  background-color: #fba719;
+  padding: 30px;
+  opacity: 0.8;
+  width: 100%;
+  margin-top: 180px;
+}
+
+.input-field {
+  background-color: transparent;
+  border: 2px white solid;
+  color: white;
+  width: 200px;
+  margin: 5px;
+}
+::placeholder {
+  color: white;
+}
+.searchBtn {
+  border: none;
+  margin: 5px;
+  width: 200px;
+}
+select {
+  width: 200px;
+  margin: 5px;
+  background-color: transparent;
+  color: white;
+  border: 2px white solid;
+}
+@media (max-width: 762px) {
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  select {
+    width: 100%;
+    height: 50px;
+  }
+  .input-field {
+    width: 100%;
+    height: 50px;
+  }
+  .searchBtn {
+    width: 100%;
+    height: 50px;
+    color: orange;
+    font-weight: bold;
+    background-color: wheat;
+  }
+}
+.envi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+.custom-heading {
+  color: #fba719;
+  text-align: center;
+  margin: 0 0 20px;
+  font-size: 28px;
+}
+.cutom-subheading {
+  color: #808285;
+  text-align: center;
+  margin: 0 0 24px;
+  font: 24px;
+}
+.workspace {
+  height: 100%;
+}
