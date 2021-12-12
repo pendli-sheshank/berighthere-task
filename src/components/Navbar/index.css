@@ -1,40 +1,27 @@
+img {
+  width: 2rem;
+  height: 2rem;
+}
+.hilight {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.navi-flex {
+  flex-grow: inherit;
+}
+.hilight:hover {
+  color: orange !important;
+}
+.home {
+  color: orange !important;
+  font-weight: bold;
+  text-decoration: none;
+}
 span {
   color: orange;
-  font-weight: bold;
+  font-weight: bolder;
 }
-Nav {
-  color: black;
-  font-weight: bold;
-}
-Link :hover {
-  color: black;
-}
-.logo {
-  width: 50px;
-  height: 50px;
-}
-.navbar {
-  display: flex;
-  width: 100%;
-}
-.navend {
-  margin-left: auto;
-  display: flex;
-  flex-direction: column;
+.me-auto {
   align-items: center;
-}
-@media (max-width: 762px) {
-  .lap {
-    display: none;
-  }
-}
-@media (min-width: 763px) {
-  .nav-container {
-    display: none;
-  }
-  .lap {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-  }
 }

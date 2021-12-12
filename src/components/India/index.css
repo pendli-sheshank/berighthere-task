@@ -5,9 +5,11 @@
   padding: 10px;
   font-weight: 500;
 }
+.nation-container {
+  display: flex;
+}
 .india-container {
   padding: 0 15px;
-  text-align: justify;
 }
 .heading {
   color: #fca33e;
@@ -19,12 +21,13 @@
   color: #808285;
   font: 24px;
   padding: 10px;
+  text-align: left;
 }
 .india-img {
   width: 100%;
   height: 80%;
 }
-@media (min-width: 763px) {
+@media (max-width: 763px) {
   .nation-container {
     display: flex;
     flex-direction: column;
@@ -41,7 +44,8 @@
   }
   .subheading {
     color: #808285;
-    font: 20px;
+    font: 18px;
     padding: 10px;
+    text-align: center;
   }
 }

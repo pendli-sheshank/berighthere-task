@@ -10,15 +10,11 @@ const Header = () => {
     <>
       <div className="header-container">
         <div className="header-section">
-          <h1 className="heading-content">
-            <span className="first">
-              Workspaces
-              <br /> from the future,
-            </span>
-            <br />
-            <span className="second">
-              Closer than <br /> you think.
-            </span>
+          <h1 className="heading-content first">
+            Workspaces <br /> from the future,
+          </h1>
+          <h1 className="heading-content second">
+            Closer than <br /> You think.
           </h1>
           <Container>
             <form className="form-container">

@@ -20,68 +20,78 @@ const ReactSlick = () => {
           slidesToShow: 2,
           slidesToScroll: 3,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 2,
-          initialSlide: 2
-        }
+          initialSlide: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <div className="slider-container">
       <Slider {...settings}>
         <div className="slide-items">
           <img
-            className="img-slider"
+            className="img-slider slider"
             alt="slide1"
             src="https://berighthere.com/static/media/carsl-5.1e268984.png"
           />
-          <h3>Work From Hotel</h3>
+          <div className="text-card">
+            <h3>Work From Hotel</h3>
+          </div>
         </div>
         <div className="slide-items">
           <img
-            className="img-slider"
+            className="img-slider slider"
             alt="slider"
             src="https://berighthere.com/static/media/carsl-6.984a4ddc.jpg"
           />
-          <h3>Exclusive Womens Centers</h3>
+          <div className="text-card">
+            <h3>Exclusive Womens Centers</h3>
+          </div>
         </div>
         <div className="slide-items">
           <img
-            className="img-slider"
+            className="img-slider slider"
             alt="slide1"
             src="https://berighthere.com/static/media/carsl-1.e02a6582.png"
           />
-          <h3>Meeting Rooms</h3>
+          <div className="text-card">
+            <h3>Meeting Rooms</h3>
+          </div>
         </div>
         <div className="slide-items">
           <img
-            className="img-slider"
+            className="img-slider slider"
             alt="slide1"
             src="https://berighthere.com/static/media/carsl-7.8c739243.jpg"
           />
-          <h3>Campus Spaces</h3>
+          <div className="text-card">
+            <h3>Campus Spaces</h3>
+          </div>
         </div>
         <div className="slide-items">
           <img
-            className="img-slider"
+            className="img-slider slider"
             alt="slide1"
             src="https://berighthere.com/static/media/carsl-3.1ec27e51.png"
           />
-          <h3>Co-Working</h3>
+          <div className="text-card">
+            <h3>Co-Working</h3>
+          </div>
         </div>
       </Slider>
     </div>
